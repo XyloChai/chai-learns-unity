@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1972715019705989569
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!114 &-674872451300025371
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Volume Fog from Texture 1
+  m_Shader: {fileID: -6465566751694194690, guid: 426c2382d464faf4e8c6c0107c5cb6a1, type: 3}
+  m_Parent: {fileID: 2100000, guid: ecc2af4a155401146b3cbb9a239d4e0f, type: 2}
+  m_ModifiedSerializedProperties: 20
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _ALPHATEST_ON
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - DepthOnly
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 11700000, guid: 9ccde404fcde16a4eb2f4a6e59c7a52f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_4EEA1A9E: 0.09
+    - Vector1_522DD793: 1.12
+    - Vector1_5E73A52C: 27.3
+    - Vector1_6098A7A7: 10.16
+    - Vector1_6F1EA0F8: 50
+    - Vector1_705D9E76: 12.8
+    - Vector1_82DE1604: 0.132
+    - Vector1_A8E3BAE4: 3.75
+    - Vector1_AF6ECEBD: -0.22
+    - Vector1_B0641435: 102.9
+    - _BoundsFade: 1
+    - _BoundsFadeRange: 1
+    - _LoopStop: 0
+    - _Multiplier: 0
+    - _Noise2DScale: 0.1
+    - _QueueControl: 0
+    - _Randomness: 5
+    - _Samples: 3
+    - _ShadowAdd: 0
+    - _ShadowMulti: 0
+    - _Size: 1
+    - _SrcBlend: 1
+    - _Threshold: 0
+    - _YtoSizeRation: 1
+    m_Colors:
+    - Color_69AD1AD: {r: 1, g: 1, b: 1, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_Tint: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
